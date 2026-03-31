@@ -1,3 +1,2 @@
-#To standardowy plik, w którym trzymamy listę bibliotek do zainstalowania.
 
 numpy==1.26.4
