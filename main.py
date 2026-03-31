@@ -1,7 +1,7 @@
 import os
 
 def process_data():
-    # Ścieżki do plików wewnątrz kontenera
+    
     input_path = "data/input.txt"
     output_path = "data/output.txt"
     
@@ -12,7 +12,7 @@ def process_data():
             content = f.read().strip()
         print(f"Dane wejściowe: '{content}'")
         
-        # Symulacja pracy modelu AI
+        
         result = f"Wynik modelu AI dla danych: [{content}] -> PRZETWORZONO SUKCESEM"
         
         with open(output_path, "w", encoding="utf-8") as f:
